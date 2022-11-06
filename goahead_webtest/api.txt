@@ -1,0 +1,12 @@
+AddUser
+DeleteUser
+DisplayUser
+AddGroup
+DeleteGroup
+AddAccessLimit
+DeleteAccessLimit
+SaveUserManagement
+LoadUserManagement
+formTest
+formUploadFileTest.xgi
+rssfwupgd.xgi

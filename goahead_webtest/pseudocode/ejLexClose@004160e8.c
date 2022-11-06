@@ -1,0 +1,7 @@
+
+void ejLexClose(void)
+
+{
+  return;
+}
+

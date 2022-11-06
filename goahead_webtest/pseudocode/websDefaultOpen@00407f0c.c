@@ -1,0 +1,7 @@
+
+void websDefaultOpen(void)
+
+{
+  return;
+}
+

@@ -1,0 +1,107 @@
+
+/* WARNING: Unknown calling convention yet parameter storage is locked */
+
+__pid_t waitpid(__pid_t __pid,int *__stat_loc,int __options)
+
+{
+  __pid_t _Var1;
+  
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  (*(code *)__DT_PLTGOT)();
+  _Var1 = FUN_00403700();
+  return _Var1;
+}
+
