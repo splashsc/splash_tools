@@ -96,5 +96,13 @@ ip对应的是外部可以监控到的地址（本机）， 端口为本地启�
 
 [Vulnerabilities in Tenda's W15Ev2 AC1200 Router (boschko.ca)](https://boschko.ca/tenda_ac1200_router/)
 
-浅薄之见，看了一篇文章想到的嵌入式设备漏挖方式
+
+
+
+
+一个生成fuzz payload的burp插件
+
+https://github.com/volkandindar/agartha
+
+
 
