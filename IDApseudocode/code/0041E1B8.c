@@ -1,0 +1,70 @@
+_DWORD *ctor_094()
+{
+  _DWORD *result; // $v0
+
+  result = &dword_6798C0;
+  dword_679A68 = (int)off_66B584;
+  *off_66B584 = &dword_679A64;
+  dword_679A4C = (int)&dword_679A64;
+  dword_679A64 = (int)&dword_679A48;
+  dword_679A48 = (int)&dword_679A2C;
+  dword_679A2C = (int)&dword_679A10;
+  dword_679A10 = (int)&dword_6799F4;
+  dword_6799F4 = (int)&dword_6799D8;
+  dword_679A30 = (int)&dword_679A48;
+  dword_679A14 = (int)&dword_679A2C;
+  dword_6799F8 = (int)&dword_679A10;
+  dword_6799DC = (int)&dword_6799F4;
+  dword_6799C0 = (int)&dword_6799D8;
+  dword_6799D8 = (int)&dword_6799BC;
+  dword_6799A4 = (int)&dword_6799BC;
+  dword_679988 = (int)&dword_6799A0;
+  dword_6799BC = (int)&dword_6799A0;
+  dword_67996C = (int)&dword_679984;
+  dword_6799A0 = &dword_679984;
+  dword_679950 = (int)&dword_679968;
+  dword_679984 = &dword_679968;
+  dword_679934 = (int)&dword_67994C;
+  dword_679968 = &dword_67994C;
+  dword_679918 = (int)&dword_679930;
+  dword_67994C = &dword_679930;
+  dword_679930 = &dword_679914;
+  dword_6798FC = (int)&dword_679914;
+  dword_679914 = (int)&dword_6798F8;
+  dword_6798E0 = (int)&dword_6798F8;
+  dword_6798F8 = (int)&dword_6798DC;
+  off_66B584 = (void **)&dword_6798C0;
+  dword_6798C0 = &_httpd_cgi_all_fun;
+  dword_6798C4 = (int)&dword_6798DC;
+  dword_6798DC = (int)&dword_6798C0;
+  return result;
+}
+// 66B580: using guessed type void *_httpd_cgi_all_fun;
+// 66B584: using guessed type void **off_66B584;
+// 6798C4: using guessed type int dword_6798C4;
+// 6798DC: using guessed type int dword_6798DC;
+// 6798E0: using guessed type int dword_6798E0;
+// 6798F8: using guessed type int dword_6798F8;
+// 6798FC: using guessed type int dword_6798FC;
+// 679914: using guessed type int dword_679914;
+// 679918: using guessed type int dword_679918;
+// 679934: using guessed type int dword_679934;
+// 679950: using guessed type int dword_679950;
+// 67996C: using guessed type int dword_67996C;
+// 679988: using guessed type int dword_679988;
+// 6799A4: using guessed type int dword_6799A4;
+// 6799BC: using guessed type int dword_6799BC;
+// 6799C0: using guessed type int dword_6799C0;
+// 6799D8: using guessed type int dword_6799D8;
+// 6799DC: using guessed type int dword_6799DC;
+// 6799F4: using guessed type int dword_6799F4;
+// 6799F8: using guessed type int dword_6799F8;
+// 679A10: using guessed type int dword_679A10;
+// 679A14: using guessed type int dword_679A14;
+// 679A2C: using guessed type int dword_679A2C;
+// 679A30: using guessed type int dword_679A30;
+// 679A48: using guessed type int dword_679A48;
+// 679A4C: using guessed type int dword_679A4C;
+// 679A64: using guessed type int dword_679A64;
+// 679A68: using guessed type int dword_679A68;
+
