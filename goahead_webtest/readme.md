@@ -28,6 +28,10 @@ IDA中打开文件，File->Produce code->Create C file,可生成所有伪代码�
 
 ![image-20221106221441140](readme.assets/image-20221106221441140.png)
 
+还有一个Ghidra python脚本，https://github.com/tenable/ghidra_tools/tree/main/extract_decomps
+
+
+
 
 
 ## **0x03**
