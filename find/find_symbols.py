@@ -3,6 +3,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='Traverse a directory and separate ELF and non-ELF files.')
 parser.add_argument('-d', '--directory', type=str, help='The directory to traverse/root.')
+parser.add_argument('-f', '--file', type=str, help='The file to save.')
 
 args = parser.parse_args()
 
@@ -26,9 +27,9 @@ traverse_directory(args.directory)
 
 for file_path in elf_files:
 
-    os.system(f"echo {file_path} >> elf_results.txt")
-    os.system(f"nm -D {file_path} >> elf_results.txt")
-    with open("elf_results.txt", "a") as f:
+    os.system(f"echo {file_path} >> {args.file}")
+    os.system(f"nm -D {file_path} >> {args.file}")
+    with open(args.file, "a") as f:
         f.write("-----------------------------------\n\n")
 
 # print("ELF files:")
