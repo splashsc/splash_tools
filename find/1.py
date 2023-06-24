@@ -18,11 +18,17 @@ def traverse_directory(directory):
 
 traverse_directory("/home/iot/Desktop/_ax3004i_ml_14_162.bin.extracted/squashfs-root")
 
-print("ELF files:")
-for file in elf_files:
-    print(file)
+for file_path in elf_files:
+    os.system(f"echo {file_path} >> elf_results.txt")
+    os.system(f"nm -D {file_path} >> elf_results.txt")
+    with open("elf_results.txt", "a") as f:
+        f.write("\n\n")
 
-print("\nNon-ELF files:")
-for file in non_elf_files:
-    print(file)
+# print("ELF files:")
+# for file in elf_files:
+#     print(file)
+
+# print("\nNon-ELF files:")
+# for file in non_elf_files:
+#     print(file)
 
