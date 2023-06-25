@@ -1,5 +1,6 @@
 import os
 import argparse
+import subprocess
 
 parser = argparse.ArgumentParser(description='Traverse a directory and separate ELF and non-ELF files.')
 parser.add_argument('-d', '--directory', type=str, help='The directory to traverse/root.')
@@ -27,9 +28,11 @@ traverse_directory(args.directory)
 
 for file_path in elf_files:
 
-    os.system(f"echo {file_path} >> {args.file}")
-    os.system(f"nm -D {file_path} >> {args.file}")
     with open(args.file, "a") as f:
+        f.write(f"{file_path}\n")
+        nm_output = subprocess.Popen(["nm", "-D", file_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        stdout, stderr = nm_output.communicate()
+        f.write(stdout.decode())
         f.write("-----------------------------------\n\n")
 
 # print("ELF files:")
@@ -39,4 +42,3 @@ for file_path in elf_files:
 # print("\nNon-ELF files:")
 # for file in non_elf_files:
 #     print(file)
-
