@@ -1,10 +1,14 @@
-from playwright.sync_api import sync_playwright
+import sys
+sys.path.append('.')
+from spider import sophos
+from tqdm import tqdm
 
-with sync_playwright() as p:
-    for browser_type in [p.chromium, p.firefox, p.webkit]:
-        browser = browser_type.launch(headless=False)
-        page = browser.new_page()
-        page.goto('https://accounts.myzyxel.com/users/sign_in')
-        page.screenshot(path=f'screenshot-{browser_type.name}.png')
-        print(page.title())
-        browser.close()
+
+
+if __name__ == "__main__":
+    sophos.spider_crawl_link()
+
+
+
+
+
